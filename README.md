@@ -196,12 +196,4 @@ docker-compose up -d
 ## Catatan Penting
 - Backup database secara berkala
 - Monitor penggunaan disk untuk logs Kafka
-- Periksa Schema Registry untuk kompatibilitas schema
-
-## Kontribusi
-Silakan berkontribusi dengan membuat pull request atau melaporkan issues.
-
-## Lisensi
-[MIT License](LICENSE)
-
-        
+- Periksa Schema Registry untuk kompatibilitas schema        
