@@ -1,0 +1,20 @@
+{
+  "namespace": "com.activity.dto",
+  "type": "record",
+  "name": "Task",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "default": ""
+    }
+  ]
+}

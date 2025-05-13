@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "name": "SaleDto",
+  "namespace": "com.activity.dto",
+  "fields": [
+    {"name": "id", "type": ["null", "long"], "default": null},
+    {"name": "invoiceNumber", "type": "string"},
+    {"name": "saleDate", "type": "string"},
+    {"name": "totalAmount", "type": "double"},
+    {"name": "paymentStatus", "type": "string"},
+    {"name": "customerName", "type": "string"},
+    {"name": "saleDetailDto", "type": 
+    {"type": "array", 
+    "items": {
+      "type": "record",
+      "name": "SaleDetailDto",
+      "fields": [
+        {"name": "productId", "type": "long"},
+        {"name": "quantity", "type": "int"},
+        {"name": "unitPrice", "type": "double"}
+      ]
+    }}}
+  ]
+}
