@@ -151,10 +151,6 @@ curl -X POST http://localhost:8080/api/sale \
 }'
 ```
 
-### Download Sale
-```bash
-curl -X GET http://localhost:8080/api/sale/download/{id}
-```
 
 ## Monitoring
 - Schema Registry UI: http://localhost:8081
